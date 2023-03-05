@@ -11,7 +11,11 @@ int main() {
     cin >> epsilon;
 
     simple_iteration_method(epsilon);
+    cout << endl;
     newton_method(epsilon);
+    cout << endl;
     relaxation_method(epsilon);
+
+    system("pause");
     return 0;
 }
